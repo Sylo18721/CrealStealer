@@ -4,6 +4,7 @@ import customtkinter as ctk
 from tkinter import messagebox, filedialog
 import requests
 
+
 ctk.set_appearance_mode("dark")
 app = ctk.CTk()
 app.title(f"Creal Builder")
